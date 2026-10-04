@@ -1,0 +1,31 @@
+# Large binaries — never committed. See data/downloads.md for sources + checksums.
+*.img
+*.zip
+*.tgz
+*.tar.gz
+*.apk
+*.bin
+*.elf
+
+# ROM working dirs
+rom/
+lineage-imgs/
+backup-sdcard/
+apk/
+
+# Python venv / caches
+venv/
+__pycache__/
+*.pyc
+
+# Local secrets / sessions (never commit account tokens)
+*.cookies
+*.jar
+.migatesession/
+session.json
+
+# Scratch
+*.log
+*.tmp
+sf.xml
+redmi9c-tweaks.zip

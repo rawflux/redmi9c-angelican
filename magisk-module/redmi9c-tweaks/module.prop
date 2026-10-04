@@ -1,0 +1,6 @@
+id=redmi9c_tweaks
+name=Redmi 9C (angelican) Tweaks
+version=v1.3.0
+versionCode=10300
+author=rawflux
+description=Memory tuning (lmkd PSI + kernel reserves) to stop OOM soft-reboots on 3GB, Wi-Fi scan-churn reduction (quieter logs + battery), and persistent Wi-Fi ADB on :5555. For LineageOS 23.2 / Android 16.

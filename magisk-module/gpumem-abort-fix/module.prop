@@ -1,0 +1,6 @@
+id=gpumem-abort-fix
+name=GPU-mem abort fix (libmeminfo)
+version=v1.0.0
+versionCode=1
+author=rawflux
+description=Patches libmeminfo so ReadPerProcessGpuMem degrades gracefully instead of abort()ing when the gpu_mem eBPF map is absent (this MTK kernel has no gpu_mem_total tracepoint). Stops the hourly system_server soft-reboot. 2-byte patch, built on-device at install; see docs/09.
